@@ -1,0 +1,13 @@
+Important information for testing FastAPI app:
+
+Instructions:
+
+1- First create an docker image using command (docker build -t classification-text-app .)
+2- Run the container of this docker image using command (docker run -p 8080:80 classification-text-app)
+3- After running the container in the terminal give us an URL for testing two methods (get, post) so in the browser
+   we put the URL : http://localhost:8080/docs so form this link we can test two methods
+
+Note: the method post need a string parameter in its body as input to classify the input 
+
+Note: I deployed the app in the heroku platform you can use it from this URL:
+      https://classification-text-app-200-97a2a7bb8d65.herokuapp.com/
